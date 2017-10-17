@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beansProjectDescription>
+	<version>1</version>
+	<pluginVersion><![CDATA[3.8.3.201612191259-RELEASE]]></pluginVersion>
+	<configSuffixes>
+		<configSuffix><![CDATA[xml]]></configSuffix>
+	</configSuffixes>
+	<enableImports><![CDATA[false]]></enableImports>
+	<configs>
+		<config>java:com.sevya.launchpad.App</config>
+	</configs>
+	<autoconfigs>
+		<config>java:com.sevya.onemoney.app.App</config>
+	</autoconfigs>
+	<configSets>
+	</configSets>
+</beansProjectDescription>

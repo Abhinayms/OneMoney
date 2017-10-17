@@ -1,0 +1,11 @@
+#!/bin/bash
+  
+EXPECTED_ARGS=3
+E_BADARGS=65
+MYSQL=`which mysql`
+
+DBASE="onemoneydb"
+  
+SQL="drop database if exists $DBASE;"
+  
+$MYSQL -uroot -proot -e "$SQL"
